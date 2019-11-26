@@ -1,0 +1,23 @@
+c_ex3
+nadav366
+205457534
+######
+
+The exercise involved writing a mathematical library and the software that it uses,
+so I will address the two separately.
+
+libinfi Library-
+We are given a header file, which we have implemented the functions defined therein.
+Overall the majority was very simple and immediate - to write according to the exact
+ mathematical guidelines given to us.
+During the realization of the function, it is invoked by asserting invalid input
+ and undefined actions such as-
+h <0, N <0, a <b and so on.
+And calling for functions with values that are not within their definition.
+
+NumericalAnalyzer software-
+The software receives user parameters and runs the respective library, most of the
+ realization involved testing the variable input.
+The case of h <0 was not tested in the school solution, so I also did not check it even
+though it seems to be an incorrect input.
+
